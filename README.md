@@ -7,15 +7,18 @@ A brief introduction of P2PNet can be found at [机器之心 (almosthuman)](http
 The codes is tested with PyTorch 1.5.0. It may not run with other versions.
 
 ## Visualized demos for P2PNet
-<img src="vis/congested1.png" width="1000"/>   
-<img src="vis/congested2.png" width="1000"/> 
-<img src="vis/congested3.png" width="1000"/> 
+![image](https://github.com/user-attachments/assets/ac98e428-042f-4def-86a8-9b9a55c5ae7c)
+
+![image](https://github.com/user-attachments/assets/3559e71c-9bd7-412f-9c7e-54af4f84451c)
+
+![image](https://github.com/user-attachments/assets/75d8dd8f-9849-4a17-ad8c-7fe9cac0d56b)
 
 ## The network
 The overall architecture of the P2PNet. Built upon the VGG16, it firstly introduce an upsampling path to obtain fine-grained feature map. 
 Then it exploits two branches to simultaneously predict a set of point proposals and their confidence scores.
 
-<img src="vis/net.png" width="1000"/>   
+![image](https://github.com/user-attachments/assets/473e7a1b-27c8-4899-baf1-46bc714f3fce)
+ 
 
 ## Comparison with state-of-the-art methods
 The P2PNet achieved state-of-the-art performance on several challenging datasets with various densities.
